@@ -12,7 +12,7 @@ export const ProjectDetail = (props) => {
   return (<>
     <Navbar />
     <div className={styles.container}>
-      <div className={styles.top}>
+      <div className={project.highlights.layout === "landscape" ? styles.topHorizontal : styles.top}>
         <div className={styles.topLeft}>
           <div>
             <div className={styles.titleContainer}>
@@ -41,14 +41,16 @@ export const ProjectDetail = (props) => {
           </video>
         </div>
       </div>
-        <ul className={styles.imageContainer}>
+      <div className={styles.imageContainer}>
+        <ul className={project.highlights.layout === "phone" ? styles.imageList : styles.imageListHorizontal}>
           {project.screenshots.map((imagePath, index) => {
-            return <li key={index} className={project.highlights.layout === "phone" ? styles.imageList : styles.imageListHorizontal}>
+            return <li key={index} >
               <img src={imagePath} alt="project demo screenshot" />
             </li>
           })}
-        </ul>
-  
+          </ul>
+      </div>
+
 
       {/* Covers the detailed video of the project */}
       <div className={styles.bottomSection}>

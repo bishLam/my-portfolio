@@ -36,7 +36,7 @@
     "highlights" : {
       "src": "/assets/videos/CinemarvelReviews.mp4",
       "type": "mp4",
-      "layout": "laptop"
+      "layout": "landscape"
     },
     "screenshots" : [
       "assets/screenshots/cinemarvel/image_1.png",
