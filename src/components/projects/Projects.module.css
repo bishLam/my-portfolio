@@ -1,0 +1,35 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  font-family: "Open Sans", serif;
+}
+
+.subTitle{
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.3px;
+  margin: 0 20px;
+  font-family: "Open Sans", serif;
+}
+
+.projects{
+  margin-top:37px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap:35px;
+  width:100%;
+}

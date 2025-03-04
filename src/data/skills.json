@@ -1,0 +1,65 @@
+[
+  {
+    "title":"HTML",
+    "imageSrc": "/assets/skills/html.png"
+  },
+
+  {
+    "title":"CSS",
+    "imageSrc": "/assets/skills/css.png"
+  },
+
+  {
+    "title":"JavaScript",
+    "imageSrc": "/assets/skills/java-script.png"
+  },
+
+  {
+    "title" : "PHP",
+    "imageSrc" : "/assets/skills/php.png"
+  },
+
+  {
+    "title":"React",
+    "imageSrc": "/assets/skills/react.png"
+  },
+
+  {
+    "title":"Java",
+    "imageSrc": "/assets/skills/java.png"
+  },
+
+  {
+    "title":". Net",
+    "imageSrc": "/assets/skills/dotNet.png"
+  },
+  {
+    "title":"Native Android",
+    "imageSrc": "/assets/skills/android.png"
+  },
+
+  {
+    "title":"ASP . Net",
+    "imageSrc": "/assets/skills/aspnet.png"
+  },
+
+  {
+    "title": "C++",
+    "imageSrc" : "/assets/skills/cpp.png"
+  },
+
+  {
+    "title": "C#",
+    "imageSrc" : "/assets/skills/c-sharp.png"
+  },
+
+  {
+    "title": "SQL",
+    "imageSrc": "/assets/skills/sql.png"
+  },
+
+  {
+    "title" : "Figma",
+    "imageSrc": "/assets/skills/figma.png"
+  }
+]

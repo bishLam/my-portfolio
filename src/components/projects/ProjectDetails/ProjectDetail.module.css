@@ -1,0 +1,229 @@
+@import "../../../vars.css";
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 79px;
+    color: var(--color-text);
+}
+
+.imageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.imageListHorizontal{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 450px;
+    border-radius: 5px;
+    height: auto;
+}
+
+.imageListHorizontal img{
+    width: 450px;
+}
+
+.imageList img {
+    width: 250px;
+    border-radius: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.topleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.topRight video {
+    width: 300px;
+    margin-left: 100px;
+}
+
+.topRightHorizontal video {
+    width: 600px;
+    margin-left: 80px;
+}
+
+.titleContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 80px;
+}
+
+.titleContainer h1 {
+    margin: 0;
+    font-size: 50px;
+    font-family: "Open Sans", serif;
+}
+
+.titleContainer img {
+    height: 50px;
+}
+
+.techLists {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.techLists li {
+    border: 1px solid black;
+    background-color: var(--color-secondary);
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-family: "Open Sans", serif;
+}
+
+.descriptionContainer h2 {
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    font-family: "Open Sans", serif;
+    text-align: left;
+}
+
+.descriptionContainer p {
+    font-size: 18px;
+    font-family: "Open Sans", serif;
+    white-space: pre-line;
+    vertical-align: bottom;
+    text-align: justify;
+    margin-top: 5px;
+}
+
+
+
+.highlightsVideo video {
+    width: 700px;
+}
+
+.demoVideo iframe {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 900px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+.sourceContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.sourceContainer a {
+    text-decoration: none;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    background-color: var(--color-secondary);
+    color: var(--color-text);
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.sourceContainer a:hover {
+    background-color: var(--color-primary);
+}
+
+.bottomSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imageList{
+    list-style: none;
+    margin: 0 5px;
+}
+
+
+@media screen and (max-width : 890px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .titleContainer {
+        gap: 30px;
+    }
+
+    .titleContainer h1 {
+        font-size: 30px;
+    }
+
+    .titleContainer a img {
+        height: 40px;
+    }
+
+    .techLists li {
+        height: fit-content;
+        flex-wrap: wrap;
+    }
+
+    .descriptionContainer p {
+        font-size: 15px;
+    }
+
+    .descriptionContainer h2 {
+        font-size: 25px;
+    }
+
+    .topRight video {
+        margin-left: 0;
+    }
+
+    .imageContainer li img {
+        max-width: 150px;
+        margin: 10px 0;
+    }
+
+}
+
+
+@media screen and (max-width : 1300px) {
+    .imageContainer {
+        flex-wrap: wrap;
+        list-style: none;
+    }
+    .bottomSection{
+        flex-direction: column;
+    }
+
+    .sourceContainer{
+        margin-top: 15px;
+        
+    }
+
+}
+
+@media screen and (max-width: 1130px){
+    .demoVideo iframe {
+        width: 100%;
+        height: 450px;
+        overflow: auto;
+    }
+}

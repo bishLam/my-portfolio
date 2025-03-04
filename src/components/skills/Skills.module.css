@@ -1,0 +1,70 @@
+@import "../../vars.css";
+
+.container{
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.title{
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  font-family: "Open Sans", serif;
+}
+
+.skills{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 37px;
+  margin-top: 35px;
+}
+
+.skill{
+  display:flex;
+  flex-direction: column;
+  gap:20px;
+  align-items: center;
+}
+
+.imageContainer img{
+  width: 75px;
+}
+
+.imageContainer{
+  width:120px;
+  height:120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.skill p{
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 890px) {
+  .imageContainer{
+    height: 60px;
+    width: 60px;
+  }
+
+  .imageContainer img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .skill p{
+    font-size: 18px;
+  }
+}
