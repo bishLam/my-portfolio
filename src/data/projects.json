@@ -6,8 +6,8 @@
     "detailedDescription" : "I developed a collaborative financial tracking app based on groups that allows every member to upload the bill and share that among each other easily. It offers features such as logging expenditures, calculate individual contributions, and maintain payment records across teams. \nUsed Android Studio with jetpack navigation, Room database designing and gained experience with livedatas for better state management. Some features includes:- \n▷ Use of Fragments, Viewmodel and repository to ensure functional multi-screen flow. \n▷ Usage of native and memory efficient components such as Recyler views.",
     "imageSrc": "/assets/projects/project.png",
     "skills": ["Java", "MVVC", "Android Studio"],
-    "demoLink": "https://www.youtube.com/embed/CoBdNnFVj8Q?autoplay=1&loop=1&autopause=0&muted=1?list=PLkkEwYRm4qdFIfjMpzyKbaid66lLRAjiJ",
-    "sourceLink": "https://youtube.com/shorts/CoBdNnFVj8Q?feature=share",
+    "demoLink": "https://www.youtube.com/embed/J7GeS_Q7ppI",
+    "sourceLink": "https://github.com/bishLam/SplitShare",
     "techs": ["Android Studio", "Java", "MVVC", "Jetpack Navigation", "Room"],
     "highlights" : {
       "src": "/assets/videos/SplitShareDemo.mp4",
@@ -19,6 +19,18 @@
       "assets/screenshots/splitshare/image_2.png",
       "assets/screenshots/splitshare/image_3.png",
       "assets/screenshots/splitshare/image_4.png"
+    ],
+    "links": [
+      {
+        "name" : "View Source",
+        "source" : "https://github.com/bishLam/SplitShare",
+        "Logo" : "/assets/contact/githubIcon.png"
+      },
+      {
+        "name" : "View Demo",
+        "source" : "https://www.youtube.com/embed/J7GeS_Q7ppI",
+        "Logo" : "/assets/contact/youtubeIcon.png"
+      }
     ]
   },
 
@@ -30,7 +42,7 @@
     "detailedDescription" : "I developed a web platform for Marvel movie enthusiasts. Users can interact throught their favourite or critics movie. This enabled fans to watch movie synopsis, community critiques and could view the average ratings for the movie. Some key features include:- \n▷ Use of Bootstrap ensuring mobile-friendly UI.\n▷ Secure login and registration. \n▷ Authentic user reviews and rating system. \n▷ MySql based data handling with jquery and Ajax requests ",
     "imageSrc": "/assets/projects/project.png",
     "skills": ["Bootstraop", "PHP", "Jquery", "MySQL"],
-    "demoLink": "https://www.youtube.com",
+    "demoLink": "https://www.youtube.com/embed/izrMyoG-dfY",
     "sourceLink": "https://github.com/bishLam/CinemarvelReviews",
     "techs": ["PHP", "Bootstrap 5", "MySQL", "Jquery"],
     "highlights" : {
@@ -43,28 +55,81 @@
       "assets/screenshots/cinemarvel/image_2.png",
       "assets/screenshots/cinemarvel/image_3.png",
       "assets/screenshots/cinemarvel/image_4.png"
+    ],
+    "links": [
+      {
+        "name" : "View Source",
+        "source" : "https://github.com/bishLam/CinemarvelReviews",
+        "Logo" : "/assets/contact/githubIcon.png"
+      },
+      {
+        "name" : "View Live",
+        "source" : "https://www.cinemarvelreviews.infinityfreeapp.com",
+        "Logo" : "/assets/contact/externalIcon.png"
+      },
+      {
+        "name" : "View Demo",
+        "source" : "https://www.youtube.com/embed/izrMyoG-dfY",
+        "Logo" : "/assets/contact/youtubeIcon.png"
+      }
     ]
   },
 
   {
     "ID": "3",
-    "title": "Library Management Application",
+    "title": "Winform Library App",
     "description": "A dual-interface desktop application for administrators and patrons. Admins handle book catalogs, author databases, and generate usage reports. Users can browse titles, place reservations, and manage borrowings through an intuitive client interface.",
+    "detailedDescription": "I developed a dual-interface windows forms application to manage books, authors, language etc from admin side and to reserve and borrow books, return them view their self activities etc. Some features of the application includes:- \n▷ A dual based interface to allow admin manage books and users to explore books. \n▷ Worked with MVC architecture so implemented business logic layer, data access layer and presentation layer. \n▷ Implemented Web Services Layer for seperation of Data access layer with presentation layer. " ,
     "imageSrc": "/assets/projects/project.png",
     "skills": [".Net", "ASP.Net", "C#", "MVC"],
-    "demoLink": "https://www.youtube.com",
+    "demoLink": "https://www.youtube.com/embed/8rCD9ffGLXo",
     "sourceLink": "https://github.com/bishLam/library-system-windows-forms-app",
-    "techs":[".Net Framework", "Windows Forms", "C#", "ASP.Net", "Visual Studio"]
+    "techs":[".Net Framework", "Windows Forms", "C#", "ASP.Net", "Visual Studio"],
+    "highlights" : {
+      "src": "/assets/videos/winform.mp4",
+      "type": "mp4",
+      "layout" : "landscape"
+    },
+    "screenshots" : [
+      "assets/screenshots/winform/image_1.png",
+      "assets/screenshots/winform/image_2.png",
+      "assets/screenshots/winform/image_3.png",
+      "assets/screenshots/winform/image_4.png"
+    ],
+    "links": [
+      {
+        "name" : "View Source",
+        "source" : "https://github.com/bishLam/library-system-windows-forms-app",
+        "Logo" : "/assets/contact/githubIcon.png"
+      },
+      {
+        "name" : "View Demo",
+        "source" : "https://www.youtube.com/embed/8rCD9ffGLXo",
+        "Logo" : "/assets/contact/youtubeIcon.png"
+      }
+    ]
   },
 
   {
     "ID": "4",
     "title": "React Digital Watch",
     "description": "A minimalist web application built with React framework that showcases real-time clock functionality. Continuously updates to display current hours, minutes, and seconds in a clean digital interface optimized for responsive viewing.",
+    "detailedDescription": "",
     "imageSrc": "/assets/projects/project.png",
     "skills": ["React", "Vite", "CSS"],
     "demoLink": "https://www.youtube.com",
-    "sourceLink": "https://github.com/bishLam/react-digital-watch"
+    "sourceLink": "https://github.com/bishLam/react-digital-watch",
+    "highlights" : {
+      "src": "/assets/videos/SplitShareDemo.mp4",
+      "type": "mp4",
+      "layout" : "landscape"
+    },
+    "screenshots" : [
+      "assets/screenshots/splitshare/image_1.png",
+      "assets/screenshots/splitshare/image_2.png",
+      "assets/screenshots/splitshare/image_3.png",
+      "assets/screenshots/splitshare/image_4.png"
+    ]
   },
   {
     "ID": "5",
@@ -74,17 +139,67 @@
     "skills": ["React", "Vite", "CSS"],
     "demoLink": "https://www.youtube.com",
     "sourceLink": "https://github.com/bishLam/to-do-list",
-    "techs":["React", "Vite", "CSS", "Javascript"]
+    "techs":["React", "Vite", "CSS", "Javascript"],
+    "highlights" : {
+      "src": "/assets/videos/SplitShareDemo.mp4",
+      "type": "mp4",
+      "layout" : "landscape"
+    },
+    "screenshots" : [
+      "assets/screenshots/splitshare/image_1.png",
+      "assets/screenshots/splitshare/image_2.png",
+      "assets/screenshots/splitshare/image_3.png",
+      "assets/screenshots/splitshare/image_4.png"
+    ]
   },
 
   {
     "ID": "6",
     "title": "Scholarlink Application Design",
     "description": "A comprehensive UI/UX design project for a digital platform connecting students with academic scholarships based on the prioroties set by the users. Features a user-friendly interface, intuitive navigation, and interactive elements to streamline the scholarship application process.",
+    "detailedDescription": "I designed a comprehensive UI/UX design ensuring intuitive and user-centric standarads. Some features include: \n▷ Intuitive and user friendly design. \n▷ Performed heuristic evaluation tests to ensure user satisfaction. \n▷ Identified and demonstrated user centric design methodologies. \n▷ Created industry standard sketches and wireframes. \n▷ Performed usability testing with pre-testing and post-testing questionnaires to ensure user centric design",
     "imageSrc": "/assets/projects/project.png",
     "skills": ["Figma", "Adobe XD","Wireframing"],
     "techs" : ["Figma", "UI", "UX", "Heuristic Evaluation"],
-    "demoLink": "https://drive.google.com/file/d/1jtVjOPvnR4831rLu_4dIRa8AquocNkJr/preview",
-    "sourceLink": "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1"
+    "demoLink": "https://www.youtube.com/embed/fFh6tGNtoD8",
+    "sourceLink": "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1",
+    "highlights" : {
+      "src": "/assets/videos/scholarlink.mp4",
+      "type": "mp4",
+      "layout" : "phone"
+    },
+    "screenshots" : [
+      "assets/screenshots/scholarlink/image_1.png",
+      "assets/screenshots/scholarlink/image_2.png",
+      "assets/screenshots/scholarlink/image_3.png",
+      "assets/screenshots/scholarlink/image_4.png"
+    ],
+    "links": [
+      {
+        "name" : "View Source",
+        "source" : "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1",
+        "Logo" : "/assets/skills/figma.png"
+      },
+      {
+        "name" : "View Demo",
+        "source" : "https://www.youtube.com/embed/fFh6tGNtoD8",
+        "Logo" : "/assets/contact/youtubeIcon.png"
+      },
+      {
+        "name": "View Heuristic Evaluation Sheet",
+        "source" : "https://docs.google.com/spreadsheets/d/1jXAoigTRHuRb2NYzr0WStbpfyvkKcElX/edit?gid=494618814#gid=494618814",
+        "Logo" : "/assets/contact/excelIcon.png"
+      },
+      {
+        "name": "View User Testing Video 1",
+        "source" : "https://drive.google.com/file/d/10tBdua6sZGdC3etgXHKeSpgjFwrXbfDx/view?usp=share_link",
+        "Logo" : "/assets/contact/driveIcon.png"
+      },
+      {
+        "name": "View User Testing Video 2",
+        "source" : "https://drive.google.com/file/d/1UOB04-rS76x7bUA4UNr1IVjY5bfFm4Wt/view?usp=share_link",
+        "Logo" : "/assets/contact/driveIcon.png"
+      }
+    ]
   }
 ]

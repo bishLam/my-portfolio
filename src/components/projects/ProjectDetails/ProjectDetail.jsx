@@ -1,4 +1,4 @@
-import React from 'react'
+import {useEffect} from 'react'
 import { useLocation } from 'react-router-dom'
 import styles from "./ProjectDetail.module.css"
 import projects from "../../../data/projects.json"
@@ -9,6 +9,12 @@ export const ProjectDetail = (props) => {
   const location = useLocation();
   const id = location.state?.id;
   const project = projects.filter(project => project.ID === id)[0];
+
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (<>
     <Navbar />
     <div className={styles.container}>
@@ -60,8 +66,10 @@ export const ProjectDetail = (props) => {
         </div>
         <div className={styles.sourceContainer}>
           <h2>Project Links</h2>
-          <a href={project.sourceLink}> <span>View Source</span> <img src="/assets/contact/githubIcon.png" alt="github icon" width="30" height="30" /></a>
-          <a href={project.sourceLink}> <span>View Demo</span> <img src="/assets/contact/youtubeIcon.png" alt="github icon" width="30" height="30" /></a>
+          {/* to make the buttons dynamic */}
+          {project.links.map((link, index) => {
+            return <a target='_blank' href={link.source}><span>{link.name}</span> <img src={link.Logo} alt={`${link.name} logo`} width="30" height="30" /></a>
+          })}
         </div>
       </div>
 

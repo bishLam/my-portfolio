@@ -27,7 +27,7 @@
 
 .imageList img {
     width: 290px;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .imageListHorizontal{
@@ -42,6 +42,7 @@
 
 .imageListHorizontal img{
     width: 650px;
+    height: 400px;
     margin: 10px 0;
     border-radius: 10px;
 }
@@ -160,7 +161,8 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    min-width: 250px;
+    gap: 25px;
 }
 
 .sourceContainer a:hover {
@@ -207,8 +209,9 @@
         font-size: 25px;
     }
 
-    .topRight video {
-        margin-left: 0;
+    .topRightHorizontal{
+        margin:auto;
+
     }
 
     .topRightHorizontal video{
@@ -216,15 +219,10 @@
         margin:auto;
     }
 
-    /* .imageListHorizontal{
-        align-items: center;
-        justify-content: center;
-    } */
-/* 
-    .imageContainer li img {
-        max-width:300px;
-        margin: 10px 0;
-    } */
+    .imageListHorizontal img{
+        width: 350px;
+        height: 200px;
+    }
 
 }
 
