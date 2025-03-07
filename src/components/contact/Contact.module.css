@@ -9,6 +9,7 @@
   width:100vw;
   padding: 58px 10%;
   gap:10px;
+  z-index: 0;
 }
 
 .text h2{
