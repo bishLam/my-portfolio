@@ -35,7 +35,9 @@
 }
 
 .imageContainer img{
-  width: 75px;
+  height: 70px;
+  max-width: 100px;
+  object-fit: contain;
 }
 
 .imageContainer{

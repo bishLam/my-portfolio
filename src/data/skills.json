@@ -20,27 +20,28 @@
   },
 
   {
-    "title":"React",
-    "imageSrc": "/assets/skills/react.png"
-  },
-
-  {
     "title":"Java",
     "imageSrc": "/assets/skills/java.png"
   },
 
-  {
-    "title":". Net",
-    "imageSrc": "/assets/skills/dotNet.png"
-  },
   {
     "title":"Native Android",
     "imageSrc": "/assets/skills/android.png"
   },
 
   {
-    "title":"ASP . Net",
-    "imageSrc": "/assets/skills/aspnet.png"
+    "title":"Swift",
+    "imageSrc":"/assets/skills/swift.png"
+  },
+
+  {
+    "title":"React",
+    "imageSrc": "/assets/skills/react.png"
+  },
+
+  {
+    "title":"React Native",
+    "imageSrc":"/assets/skills/react-native.png"
   },
 
   {
@@ -54,6 +55,16 @@
   },
 
   {
+    "title":"ASP . Net",
+    "imageSrc": "/assets/skills/aspnet.png"
+  },
+
+  {
+    "title":". Net",
+    "imageSrc": "/assets/skills/dotNet.png"
+  },
+
+  {
     "title": "SQL",
     "imageSrc": "/assets/skills/sql.png"
   },
@@ -62,4 +73,6 @@
     "title" : "Figma",
     "imageSrc": "/assets/skills/figma.png"
   }
+
+
 ]

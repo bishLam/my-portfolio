@@ -8,7 +8,7 @@
   padding-top: 61px;
   padding-bottom: 20px;
   z-index: 1;
-  margin: 0 10%;
+  margin: 0 5%;
   border-bottom: solid rgb(179, 173, 173) 1px;
 }
 .navbar::after {
