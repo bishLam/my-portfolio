@@ -19,17 +19,40 @@
   width: 100%;
   height: 100%;
   background-color:var(--color-bg);
-  /* background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255, 1) 90%); */
   width: 100%;
   z-index: -1;
 }
 
-.title {
+.title{
+  display:flex;
+  flex-direction:row;
+  gap:20px
+}
+
+.title a{
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
   color: var(--color-text);
 }
+
+.icons{
+  display:flex;
+  flex-direction: row;
+  gap:8px
+}
+
+.portfolioSide a{
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration:none;
+  color: var(--color-text);
+}
+
+.portfolioSide icons{
+  text-decoration:none;
+}
+
 
 .menuBtn {
   display: none;

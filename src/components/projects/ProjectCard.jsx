@@ -10,7 +10,7 @@ export const ProjectCard = ({ project: { ID, imageSrc, title, description, demoL
   return (
     <div className={styles.container} onClick={() => navigate('/projectDetails', {state: {id: `${ID}`, title: `${title}`}})}>
       <div>
-        <img className={styles.image} src={imageSrc} alt={`${title} image`} />
+        <img className={styles.image} src={imageSrc} alt={`${title} image`} width={"100%"} height={250} />
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>
         <ul className={styles.skills}>

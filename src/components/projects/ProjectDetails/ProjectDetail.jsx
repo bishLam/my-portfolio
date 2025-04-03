@@ -62,7 +62,7 @@ export const ProjectDetail = (props) => {
       <div className={styles.bottomSection}>
         <div className={styles.demoVideo}>
           <h2>Detailed Video Demo</h2>
-          <iframe src={project.demoLink} width="1000" height="600"></iframe>
+          <iframe allowFullScreen src={project.demoLink} style={project.highlights.layout === "landscape" ? {height: 600, width : 1000} : {height: 600, width : 500}}></iframe>
         </div>
         <div className={styles.sourceContainer}>
           <h2>Project Links</h2>
