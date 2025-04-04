@@ -36,7 +36,7 @@ export const ProjectDetail = (props) => {
             </ul>
           </div>
           <div className={styles.descriptionContainer}>
-            <h2>What I did in the App</h2>
+            <h2>Project Details</h2>
             <p>{project.detailedDescription}</p>
           </div>
         </div>
@@ -56,7 +56,6 @@ export const ProjectDetail = (props) => {
           })}
           </ul>
       </div>
-
 
       {/* Covers the detailed video of the project */}
       <div className={styles.bottomSection}>

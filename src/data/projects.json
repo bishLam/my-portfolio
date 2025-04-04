@@ -2,13 +2,13 @@
   {
     "ID": "1",
     "title": "SplitShare",
-    "description": "Mobile solution for collaborative financial tracking, allowing groups to divide shared costs efficiently. Offers straightforward tools to log expenditures, calculate individual contributions, and maintain transparent payment records across teams.",
-    "detailedDescription" : "I developed a collaborative financial tracking app based on groups that allows every member to upload the bill and share that among each other easily. It offers features such as logging expenditures, calculate individual contributions, and maintain payment records across teams. \nUsed Android Studio with jetpack navigation, Room database designing and gained experience with livedatas for better state management. Some features includes:- \n▷ Use of Fragments, Viewmodel and repository to ensure functional multi-screen flow. \n▷ Usage of native and memory efficient components such as Recycler views.",
+    "description": "Native android application designed for seamless group expense tracking. Allows users to log expenses in a shared environment, automatically calculates owings and maintain transparent payment records. Built with MVVM architecture, Jetpack Navigation and Room database, the app ensures a smooth and efficient experience.",
+    "detailedDescription" : "A collaborative financial tracking app based on groups that allows every member to upload the bill and share that among each other easily. It offers features such as logging expenditures, calculate individual contributions, maintain payment records across teams and contains settlement features. \n\nBuilt with Android Studio, the app include below features :- \n▷ MVVM architecture for maintainable and scalable code. \n▷ Jetpack Navigation for multiscreen flow. \n▷ Room database for efficient local storage. \n▷ Recycler views for optimised and memory efficient UI components. ",
     "imageSrc": "assets/screenshots/splitshare/demo.png",
     "skills": ["Java", "MVVC", "Android Studio"],
     "demoLink": "https://www.youtube.com/embed/J7GeS_Q7ppI",
     "sourceLink": "https://github.com/bishLam/SplitShare",
-    "techs": ["Android Studio", "Java", "MVVC", "Jetpack Navigation", "Room"],
+    "techs": ["Android Studio", "Java", "MVVM", "Jetpack Navigation", "Room"],
     "highlights" : {
       "src": "/assets/videos/SplitShareDemo.mp4",
       "type": "mp4",
@@ -36,10 +36,10 @@
   {
     "ID": "2",
     "title": "Cinemarvel Reviews",
-    "description": "Web platform dedicated to Marvel Cinematic Universe films, featuring authenticated user reviews and ratings. Enables fans to post detailed analyses, read community critiques, and explore aggregated scores for recent superhero releases.",
-    "detailedDescription" : "I developed a web platform for Marvel movie enthusiasts. Users can interact throught their favourite or critics movie. This enabled fans to watch movie synopsis, community critiques and could view the average ratings for the movie. Some key features include:- \n▷ Use of Bootstrap ensuring mobile-friendly UI.\n▷ Secure login and registration. \n▷ Authentic user reviews and rating system. \n▷ MySql based data handling with jquery and Ajax requests ",
+    "description": "Web platform dedicated to Marvel movie enthusiasts, featuring authenticated user reviews and rate films. Enables fans to post detailed analysis, read community critiques, and displays aggregated rating scores for recent, popular and other genres Marvel releases.",
+    "detailedDescription" : "Web platform for Marvel movie enthusiasts where users can explore their favourite or critics movie, allowing them to watch movie synopsis, community critiques and the average ratings for the movies. \n\nSome key features include:-\n ▷ PHP and MySql to manage backend data \n ▷ Use of Bootstrap ensuring user-friendly and responsive UI.\n ▷ Secure login and registration to authenticate genuine users. \n ▷ Authentic user reviews and rating system. ",
     "imageSrc": "/assets/screenshots/cinemarvel/demo.png",
-    "skills": ["PHP", "Jquery", "MySQL", "Bootstrap"],
+    "skills": ["PHP", "jQuery", "MySQL", "Bootstrap"],
     "demoLink": "https://www.youtube.com/embed/izrMyoG-dfY",
     "sourceLink": "https://github.com/bishLam/CinemarvelReviews",
     "techs": ["PHP", "Bootstrap 5", "MySQL", "Jquery"],
@@ -75,11 +75,11 @@
 
   {
     "ID": "3",
-    "title": "Winform Library App",
-    "description": "A dual-interface desktop application for administrators and patrons. Admins handle book catalogs, author databases, and generate usage reports. Users can browse titles, place reservations, and manage borrowings through an intuitive client interface.",
-    "detailedDescription": "I developed a dual-interface windows forms application to manage books, authors, language etc from admin side and to reserve and borrow books, return them view their self activities etc. Some features of the application includes:- \n▷ A dual based interface to allow admin manage books and users to explore books. \n▷ Worked with MVC architecture so implemented business logic layer, data access layer and presentation layer. \n▷ Implemented Web Services Layer for seperation of Data access layer with presentation layer. " ,
+    "title": "WinForms Library App",
+    "description": "A dual-interface desktop application for library administrators and library users. Admins handle book management, author databases, and generate usage reports. Users can browse books, reserve books, and borrow and manage borrowings through an intuitive client interface.",
+    "detailedDescription": " A dual-interface windows forms application to manage books, authors, language etc from admin side and reserve, borrow books and manage them from user's as well as admin's interface, view their self activities etc. \n\nSome features of the application includes:- \n ▷ A dual-based interface to allow admin manage books and users to explore, reserve, borrow and return books. \n ▷ Worked with MVC architecture implementing business logic layer, data access layer and presentation layer. \n ▷ Implemented Web Services Layer for seperation of Data access layer with presentation layer. \n ▷ MSSql to handle the backed with web service layer" ,
     "imageSrc": "/assets/screenshots/winform/demo.png",
-    "skills": [".Net", "ASP.Net", "C#", "MVC"],
+    "skills": [".Net", "ASP.Net", "C#", "MVC", "MSSql"],
     "demoLink": "https://www.youtube.com/embed/8rCD9ffGLXo",
     "sourceLink": "https://github.com/bishLam/library-system-windows-forms-app",
     "techs":[".Net Framework", "Windows Forms", "C#", "ASP.Net", "Visual Studio"],
@@ -107,43 +107,12 @@
       }
     ]
   },
+  
   {
     "ID": "5",
-    "title" : "React Movie App",
-    "description": "This is a react app which allows users to search for movies based on their title. The website uses pulic movie API to get all the movies and displays it on the website.",
-    "detailedDescription": "I developed a simple react vite application to get started with React framework. This website allows the users to browse through movies and have the favourites feature. ",
-    "imageSrc": "assets/screenshots/movieapp/image_1.png",
-    "skills": ["React", "Vite", "CSS"],
-    "demoLink": "https://www.youtube.com/embed/VvhqzbnjSjI",
-    "sourceLink": "https://github.com/bishLam/react-movie-website",
-    "techs":["React", "Vite", "CSS", "Javascript"],
-    "highlights" : {
-      "src": "/assets/videos/moviewebsite.mp4",
-      "type": "mp4",
-      "layout" : "landscape"
-    },
-    "screenshots" : [
-      "assets/screenshots/movieapp/image_1.png",
-      "assets/screenshots/movieapp/image_2.png"
-    ],
-    "links": [
-      {
-        "name" : "View Source",
-        "source" : "https://github.com/bishLam/react-movie-website",
-        "Logo" : "/assets/contact/githubIcon.png"
-      },
-      {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/VvhqzbnjSjI",
-        "Logo" : "/assets/contact/youtubeIcon.png"
-      }
-    ]
-  },
-  {
-    "ID": "6",
     "title": "Scholarlink Application Design",
     "description": "A comprehensive UI/UX design project for a digital platform connecting students with academic scholarships based on the prioroties set by the users. Features a user-friendly interface, intuitive navigation, and interactive elements.",
-    "detailedDescription": "I designed a comprehensive UI/UX design ensuring intuitive and user-centric standarads. Some features include: \n▷ Intuitive and user friendly design. \n▷ Performed heuristic evaluation tests to ensure user satisfaction. \n▷ Identified and demonstrated user centric design methodologies. \n▷ Created industry standard sketches and wireframes. \n▷ Performed usability testing with pre-testing and post-testing questionnaires to ensure user centric design",
+    "detailedDescription": "A comprehensive UI/UX design ensuring intuitive and user-centric standarads. The goal was to create a seamless, accessible, and engaging experience using established UI/UX principles. \n\nSome features include :- \n▷ Intuitive and user friendly design following UI/UX principles. \n▷ Performed heuristic evaluation tests to ensure user satisfaction. \n▷ Identified and demonstrated user centric design methodologies. \n▷ Created industry standard sketches and wireframes. \n▷ Performed usability testing with pre-testing and post-testing questionnaires to ensure user centric design and user satisfaction",
     "imageSrc": "/assets/screenshots/scholarlink/demo.png",
     "skills": ["Figma", "Adobe XD","Wireframing"],
     "techs" : ["Figma", "UI", "UX", "Heuristic Evaluation"],
@@ -185,6 +154,38 @@
         "name": "View User Testing Video 2",
         "source" : "https://drive.google.com/file/d/1UOB04-rS76x7bUA4UNr1IVjY5bfFm4Wt/view?usp=share_link",
         "Logo" : "/assets/contact/driveIcon.png"
+      }
+    ]
+  },
+  {
+    "ID": "6",
+    "title" : "React Movie App",
+    "description": "A basic react web app which displays a list of movies and  allows users to search for movies based on their title. The website uses public movie API to get all the movies and displays it on the website.",
+    "detailedDescription": "A simple react vite application that allows the users to browse through currently trending movies. This movie website uses public movie API to displays all the mpvies, allows users to add movies to the favourites. \n\n Key features and tools used includes:- \n ▷ React with hooks for efficient component state management. \n ▷ Vite for fast build and development setup. \n ▷ Responsive UI with CSS for seamless cross-device experience. \n ▷  Clean and modular code structure for maintainability.",
+    "imageSrc": "assets/screenshots/movieapp/image_1.png",
+    "skills": ["React", "Vite", "CSS"],
+    "demoLink": "https://www.youtube.com/embed/VvhqzbnjSjI",
+    "sourceLink": "https://github.com/bishLam/react-movie-website",
+    "techs":["React", "Vite", "CSS", "Javascript"],
+    "highlights" : {
+      "src": "/assets/videos/moviewebsite.mp4",
+      "type": "mp4",
+      "layout" : "landscape"
+    },
+    "screenshots" : [
+      "assets/screenshots/movieapp/image_1.png",
+      "assets/screenshots/movieapp/image_2.png"
+    ],
+    "links": [
+      {
+        "name" : "View Source",
+        "source" : "https://github.com/bishLam/react-movie-website",
+        "Logo" : "/assets/contact/githubIcon.png"
+      },
+      {
+        "name" : "View Demo",
+        "source" : "https://www.youtube.com/embed/VvhqzbnjSjI",
+        "Logo" : "/assets/contact/youtubeIcon.png"
       }
     ]
   }
