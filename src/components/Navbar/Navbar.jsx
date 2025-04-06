@@ -1,13 +1,13 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './Navbar.module.css'
-import { useLocation, useNavigate } from 'react-router-dom'
-import { getImageURL } from '../../utils'
+// import { useLocation} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const location = useLocation();
-  const path = location.pathname;
-  const navigate = useNavigate();
+  // const location = useLocation();
+  // const path = location.pathname;
+
 
   return (
     <nav className={styles.navbar}>
@@ -37,16 +37,20 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href={path === '/' ? '#about' : '/'} >About</a>
+            <HashLink to="/#about">About </HashLink>
+            {/* <a href={path === '/' ? '#about' : '/'} >About</a> */}
           </li>
           <li>
-            <a href={path === '/' ? '#skills' : '/'}>Skills</a>
+          <HashLink to="/#skills">Skills </HashLink>
+            {/* <a href={path === '/' ? '#skills' : '/'}>Skills</a> */}
           </li>
           <li>
-            <a href={path === '/' ? '#projects' : '/'}>Projects</a>
+          <HashLink to="/#projects">Projects </HashLink>
+            {/* <a href={path === '/' ? '#projects' : '/'}>Projects</a> */}
           </li>
           <li>
-            <a href={path === '/' ? '#contact' : '/'}>Contact</a>
+          <HashLink to="/#contact">Contact </HashLink>
+            {/* <a href={path === '/' ? '#contact' : '/'}>Contact</a> */}
           </li>
           <li>
             <a href="/assets/resume/bishonath_lamichhane_resume.pdf" download>Download Resume</a>
