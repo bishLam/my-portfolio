@@ -6,7 +6,7 @@
   background-color: var(--color-secondary);
   display: flex;
   flex-direction: row;
-  width:100vw;
+  width:100%;
   padding: 58px 10%;
   gap:10px;
   z-index: 0;
@@ -36,6 +36,7 @@
 .link{
   display: flex;
   align-items: center;
+  max-width: 100%;
   gap: 25px;
 }
 
@@ -45,6 +46,8 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  word-break:break-all;
+
 }
 
 @media  screen and (max-width: 830px) {

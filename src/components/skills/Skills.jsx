@@ -1,5 +1,4 @@
 import styles from "./Skills.module.css"
-import React from 'react'
 import skills from "../../data/skills.json"
 
 export const Skills = () => {
