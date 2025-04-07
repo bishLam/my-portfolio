@@ -5,7 +5,7 @@ import projects from "../../../data/projects.json"
 import { Navbar } from '../../Navbar/Navbar'
 import { Contact } from '../../contact/Contact'
 
-export const ProjectDetail = (props) => {
+export const ProjectDetail = () => {
   const location = useLocation();
   const id = location.state?.id;
   const project = projects.filter(project => project.ID === id)[0];
@@ -61,13 +61,13 @@ export const ProjectDetail = (props) => {
       <div className={styles.bottomSection}>
         <div className={styles.demoVideo}>
           <h2>Detailed Video Demo</h2>
-          <iframe allowFullScreen src={project.demoLink} style={project.highlights.layout === "landscape" ? {height: 600, width : 1000} : {height: 600, width : 500}}></iframe>
+          <iframe  allowFullScreen src={project.demoLink} className={project.highlights.layout === "landscape" ? styles.landscapeIframe : styles.mobileIframe}></iframe>
         </div>
         <div className={styles.sourceContainer}>
           <h2>Project Links</h2>
           {/* to make the buttons dynamic */}
           {project.links.map((link, index) => {
-            return <a target='_blank' href={link.source}><span>{link.name}</span> <img src={link.Logo} alt={`${link.name} logo`} width="30" height="30" /></a>
+            return <a key={index} target='_blank' href={link.source}><span>{link.name}</span> <img src={link.Logo} alt={`${link.name} logo`} width="30" height="30" /></a>
           })}
         </div>
       </div>
