@@ -3,18 +3,18 @@
     "ID": "1",
     "title": "SplitShare",
     "description": "Native android application designed for seamless group expense tracking. Allows users to log expenses in a shared environment, automatically calculates owings and maintain transparent payment records. Built with MVVM architecture, Jetpack Navigation and Room database, the app ensures a smooth and efficient experience.",
-    "detailedDescription" : "A collaborative financial tracking app based on groups that allows every member to upload the bill and share that among each other easily. It offers features such as logging expenditures, calculate individual contributions, maintain payment records across teams and contains settlement features. \n\nBuilt with Android Studio, the app include below features :- \n▷ MVVM architecture for maintainable and scalable code. \n▷ Jetpack Navigation for multiscreen flow. \n▷ Room database for efficient local storage. \n▷ Recycler views for optimised and memory efficient UI components. ",
+    "detailedDescription": "A collaborative financial tracking app based on groups that allows every member to upload the bill and share that among each other easily. It offers features such as logging expenditures, calculate individual contributions, maintain payment records across teams and contains settlement features. \n\nBuilt with Android Studio, the app include below features :- \n▷ MVVM architecture for maintainable and scalable code. \n▷ Jetpack Navigation for multiscreen flow. \n▷ Room database for efficient local storage. \n▷ Recycler views for optimised and memory efficient UI components. ",
     "imageSrc": "assets/screenshots/splitshare/demo.png",
     "skills": ["Java", "MVVC", "Android Studio"],
     "demoLink": "https://www.youtube.com/embed/J7GeS_Q7ppI",
     "sourceLink": "https://github.com/bishLam/SplitShare",
     "techs": ["Android Studio", "Java", "MVVM", "Jetpack Navigation", "Room"],
-    "highlights" : {
+    "highlights": {
       "src": "/assets/videos/SplitShareDemo.mp4",
       "type": "mp4",
-      "layout" : "phone"
+      "layout": "phone"
     },
-    "screenshots" :[
+    "screenshots": [
       "assets/screenshots/splitshare/image_1.png",
       "assets/screenshots/splitshare/image_2.png",
       "assets/screenshots/splitshare/image_3.png",
@@ -22,14 +22,14 @@
     ],
     "links": [
       {
-        "name" : "View Source",
-        "source" : "https://github.com/bishLam/SplitShare",
-        "Logo" : "/assets/contact/githubIcon.png"
+        "name": "View Source",
+        "source": "https://github.com/bishLam/SplitShare",
+        "Logo": "/assets/contact/githubIcon.png"
       },
       {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/J7GeS_Q7ppI",
-        "Logo" : "/assets/contact/youtubeIcon.png"
+        "name": "View Demo",
+        "source": "https://www.youtube.com/embed/J7GeS_Q7ppI",
+        "Logo": "/assets/contact/youtubeIcon.png"
       }
     ]
   },
@@ -37,18 +37,18 @@
     "ID": "2",
     "title": "Cinemarvel Reviews",
     "description": "Web platform dedicated to Marvel movie enthusiasts, featuring authenticated user reviews and rate films. Enables fans to post detailed analysis, read community critiques, and displays aggregated rating scores for recent, popular and other genres Marvel releases.",
-    "detailedDescription" : "Web platform for Marvel movie enthusiasts where users can explore their favourite or critics movie, allowing them to watch movie synopsis, community critiques and the average ratings for the movies. \n\nSome key features include:-\n ▷ PHP and MySql to manage backend data \n ▷ Use of Bootstrap ensuring user-friendly and responsive UI.\n ▷ Secure login and registration to authenticate genuine users. \n ▷ Authentic user reviews and rating system. ",
+    "detailedDescription": "Web platform for Marvel movie enthusiasts where users can explore their favourite or critics movie, allowing them to watch movie synopsis, community critiques and the average ratings for the movies. \n\nSome key features include:-\n ▷ PHP and MySql to manage backend data \n ▷ Use of Bootstrap ensuring user-friendly and responsive UI.\n ▷ Secure login and registration to authenticate genuine users. \n ▷ Authentic user reviews and rating system. ",
     "imageSrc": "/assets/screenshots/cinemarvel/demo.png",
     "skills": ["PHP", "jQuery", "MySQL", "Bootstrap"],
     "demoLink": "https://www.youtube.com/embed/izrMyoG-dfY",
     "sourceLink": "https://github.com/bishLam/CinemarvelReviews",
     "techs": ["PHP", "Bootstrap 5", "MySQL", "Jquery"],
-    "highlights" : {
+    "highlights": {
       "src": "/assets/videos/CinemarvelReviews.mp4",
       "type": "mp4",
       "layout": "landscape"
     },
-    "screenshots" : [
+    "screenshots": [
       "assets/screenshots/cinemarvel/image_1.png",
       "assets/screenshots/cinemarvel/image_2.png",
       "assets/screenshots/cinemarvel/image_3.png",
@@ -56,39 +56,44 @@
     ],
     "links": [
       {
-        "name" : "View Source",
-        "source" : "https://github.com/bishLam/CinemarvelReviews",
-        "Logo" : "/assets/contact/githubIcon.png"
+        "name": "View Source",
+        "source": "https://github.com/bishLam/CinemarvelReviews",
+        "Logo": "/assets/contact/githubIcon.png"
       },
       {
-        "name" : "View Live",
-        "source" : "https://www.cinemarvelreviews.infinityfreeapp.com",
-        "Logo" : "/assets/contact/externalIcon.png"
+        "name": "View Live",
+        "source": "https://www.cinemarvelreviews.infinityfreeapp.com",
+        "Logo": "/assets/contact/externalIcon.png"
       },
       {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/izrMyoG-dfY",
-        "Logo" : "/assets/contact/youtubeIcon.png"
+        "name": "View Demo",
+        "source": "https://www.youtube.com/embed/izrMyoG-dfY",
+        "Logo": "/assets/contact/youtubeIcon.png"
       }
     ]
   },
-
   {
     "ID": "3",
     "title": "WinForms Library App",
     "description": "A dual-interface desktop application for library administrators and library users. Admins handle book management, author databases, and generate usage reports. Users can browse books, reserve books, and borrow and manage borrowings through an intuitive client interface.",
-    "detailedDescription": " A dual-interface windows forms application to manage books, authors, language etc from admin side and reserve, borrow books and manage them from user's as well as admin's interface, view their self activities etc. \n\nSome features of the application includes:- \n ▷ A dual-based interface to allow admin manage books and users to explore, reserve, borrow and return books. \n ▷ Worked with MVC architecture implementing business logic layer, data access layer and presentation layer. \n ▷ Implemented Web Services Layer for seperation of Data access layer with presentation layer. \n ▷ MSSql to handle the backed with web service layer" ,
+    "detailedDescription": " A dual-interface windows forms application to manage books, authors, language etc from admin side and reserve, borrow books and manage them from user's as well as admin's interface, view their self activities etc. \n\nSome features of the application includes:- \n ▷ A dual-based interface to allow admin manage books and users to explore, reserve, borrow and return books. \n ▷ Worked with MVC architecture implementing business logic layer, data access layer and presentation layer. \n ▷ Implemented Web Services Layer for seperation of Data access layer with presentation layer. \n ▷ MSSql to handle the backed with web service layer",
     "imageSrc": "/assets/screenshots/winform/demo.png",
     "skills": [".Net", "ASP.Net", "C#", "MVC", "MSSql"],
     "demoLink": "https://www.youtube.com/embed/8rCD9ffGLXo",
     "sourceLink": "https://github.com/bishLam/library-system-windows-forms-app",
-    "techs":[".Net Framework", "Windows Forms", "C#", "ASP.Net", "Visual Studio"],
-    "highlights" : {
+    "techs": [
+      ".Net Framework",
+      "Windows Forms",
+      "C#",
+      "ASP.Net",
+      "Visual Studio"
+    ],
+    "highlights": {
       "src": "/assets/videos/winform.mp4",
       "type": "mp4",
-      "layout" : "landscape"
+      "layout": "landscape"
     },
-    "screenshots" : [
+    "screenshots": [
       "assets/screenshots/winform/image_1.png",
       "assets/screenshots/winform/image_2.png",
       "assets/screenshots/winform/image_3.png",
@@ -96,34 +101,33 @@
     ],
     "links": [
       {
-        "name" : "View Source",
-        "source" : "https://github.com/bishLam/library-system-windows-forms-app",
-        "Logo" : "/assets/contact/githubIcon.png"
+        "name": "View Source",
+        "source": "https://github.com/bishLam/library-system-windows-forms-app",
+        "Logo": "/assets/contact/githubIcon.png"
       },
       {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/8rCD9ffGLXo",
-        "Logo" : "/assets/contact/youtubeIcon.png"
+        "name": "View Demo",
+        "source": "https://www.youtube.com/embed/8rCD9ffGLXo",
+        "Logo": "/assets/contact/youtubeIcon.png"
       }
     ]
   },
-  
   {
     "ID": "5",
     "title": "Scholarlink Application Design",
     "description": "A comprehensive UI/UX design project for a digital platform connecting students with academic scholarships based on the prioroties set by the users. Features a user-friendly interface, intuitive navigation, and interactive elements.",
     "detailedDescription": "A comprehensive UI/UX design ensuring intuitive and user-centric standarads. The goal was to create a seamless, accessible, and engaging experience using established UI/UX principles. \n\nSome features include :- \n▷ Intuitive and user friendly design following UI/UX principles. \n▷ Performed heuristic evaluation tests to ensure user satisfaction. \n▷ Identified and demonstrated user centric design methodologies. \n▷ Created industry standard sketches and wireframes. \n▷ Performed usability testing with pre-testing and post-testing questionnaires to ensure user centric design and user satisfaction",
     "imageSrc": "/assets/screenshots/scholarlink/demo.png",
-    "skills": ["Figma", "Adobe XD","Wireframing"],
-    "techs" : ["Figma", "UI", "UX", "Heuristic Evaluation"],
+    "skills": ["Figma", "Adobe XD", "Wireframing"],
+    "techs": ["Figma", "UI", "UX", "Heuristic Evaluation"],
     "demoLink": "https://www.youtube.com/embed/fFh6tGNtoD8",
     "sourceLink": "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1",
-    "highlights" : {
+    "highlights": {
       "src": "/assets/videos/scholarlink.mp4",
       "type": "mp4",
-      "layout" : "phone"
+      "layout": "phone"
     },
-    "screenshots" : [
+    "screenshots": [
       "assets/screenshots/scholarlink/image_1.png",
       "assets/screenshots/scholarlink/image_2.png",
       "assets/screenshots/scholarlink/image_3.png",
@@ -131,65 +135,65 @@
     ],
     "links": [
       {
-        "name" : "View Source",
-        "source" : "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1",
-        "Logo" : "/assets/skills/figma.png"
+        "name": "View Source",
+        "source": "https://www.figma.com/design/UAnLi7fofY3JJx1XxkyQGh/High---Fidelity-Prototype?node-id=0-1&t=KEyxwvZn1LA8Ficl-1",
+        "Logo": "/assets/skills/figma.png"
       },
       {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/fFh6tGNtoD8",
-        "Logo" : "/assets/contact/youtubeIcon.png"
+        "name": "View Demo",
+        "source": "https://www.youtube.com/embed/fFh6tGNtoD8",
+        "Logo": "/assets/contact/youtubeIcon.png"
       },
       {
         "name": "View Heuristic Evaluation Sheet",
-        "source" : "https://docs.google.com/spreadsheets/d/1jXAoigTRHuRb2NYzr0WStbpfyvkKcElX/edit?gid=494618814#gid=494618814",
-        "Logo" : "/assets/contact/excelIcon.png"
+        "source": "https://docs.google.com/spreadsheets/d/1jXAoigTRHuRb2NYzr0WStbpfyvkKcElX/edit?gid=494618814#gid=494618814",
+        "Logo": "/assets/contact/excelIcon.png"
       },
       {
         "name": "View User Testing Video 1",
-        "source" : "https://drive.google.com/file/d/10tBdua6sZGdC3etgXHKeSpgjFwrXbfDx/view?usp=share_link",
-        "Logo" : "/assets/contact/driveIcon.png"
+        "source": "https://drive.google.com/file/d/10tBdua6sZGdC3etgXHKeSpgjFwrXbfDx/view?usp=share_link",
+        "Logo": "/assets/contact/driveIcon.png"
       },
       {
         "name": "View User Testing Video 2",
-        "source" : "https://drive.google.com/file/d/1UOB04-rS76x7bUA4UNr1IVjY5bfFm4Wt/view?usp=share_link",
-        "Logo" : "/assets/contact/driveIcon.png"
+        "source": "https://drive.google.com/file/d/1UOB04-rS76x7bUA4UNr1IVjY5bfFm4Wt/view?usp=share_link",
+        "Logo": "/assets/contact/driveIcon.png"
       }
     ]
   },
   {
-  "ID": "6",
-  "title": "WearLoop",
-  "description": "A modern cross-platform app built with React Native that helps users manage their warddrobes. The app serves as a marketplace betweem clothes donating and clothes collecting users",
-  "detailedDescription": "WearLoop is a full-featured React Native application that allows users to manage their wardrobe efficiently by allowing users to donate and collect clothes. The app promotes sustainable fashion by encouraging recycling of clothes.\n\nKey features and tools used include:-\n▷ React Native with Expo for building cross-platform (iOS & Android) mobile apps.\n▷ Appwrite for user authentication and cloud-based file storage.\n▷ Firebase for real-time instant messaging between interested and donating users.\n▷ Responsive and minimal UI/UX prototyped using Figma.\n▷ Cloud storage for persistent data access and photo uploads.\n▷ Modular and scalable architecture for maintainability and performance.",
-  "imageSrc": "assets/screenshots/wearloop/thumbnail.png",
-  "skills": ["React Native", "Expo", "Appwrite", "Firebase"],
-  "demoLink": "https://www.youtube.com/embed/Ulisy_Q7_2c",
-  "sourceLink": "https://github.com/bishlam/wearloop",
-  "techs": ["React Native", "Expo", "Firebase", "Appwrite", "JavaScript"],
-  "highlights": {
-    "src": "/assets/videos/SplitShareDemo.mp4",
-    "type": "mp4",
-    "layout": "phone"
-  },
-  "screenshots": [
-    "assets/screenshots/wearloop/image_1.png",
-    "assets/screenshots/wearloop/image_2.png",
-     "assets/screenshots/wearloop/image_3.png",
-    "assets/screenshots/wearloop/image_4.png",
-    "assets/screenshots/wearloop/image_5.png"
-  ],
-  "links": [
-    {
-      "name": "View Source",
-      "source": "https://github.com/bishlam/wearloop",
-      "Logo": "/assets/contact/githubIcon.png"
+    "ID": "6",
+    "title": "WearLoop",
+    "description": "A modern cross-platform app built with React Native that helps users manage their warddrobes. The app serves as a marketplace betweem clothes donating and clothes collecting users",
+    "detailedDescription": "WearLoop is a full-featured React Native application that allows users to manage their wardrobe efficiently by allowing users to donate and collect clothes. The app promotes sustainable fashion by encouraging recycling of clothes.\n\nKey features and tools used include:-\n▷ React Native with Expo for building cross-platform (iOS & Android) mobile apps.\n▷ Appwrite for user authentication and cloud-based file storage.\n▷ Firebase for real-time instant messaging between interested and donating users.\n▷ Responsive and minimal UI/UX prototyped using Figma.\n▷ Cloud storage for persistent data access and photo uploads.\n▷ Modular and scalable architecture for maintainability and performance.",
+    "imageSrc": "assets/screenshots/wearloop/thumbnail.png",
+    "skills": ["React Native", "Expo", "Appwrite", "Firebase"],
+    "demoLink": "https://www.youtube.com/embed/Ulisy_Q7_2c",
+    "sourceLink": "https://github.com/bishlam/wearloop",
+    "techs": ["React Native", "Expo", "Firebase", "Appwrite", "JavaScript"],
+    "highlights": {
+      "src": "/assets/videos/wearloop.mp4",
+      "type": "mp4",
+      "layout": "phone"
     },
-    {
-      "name": "View Demo",
-      "source": "https://www.youtube.com/embed/Ulisy_Q7_2c",
-      "Logo": "/assets/contact/youtubeIcon.png"
-    }
-  ]
-}
+    "screenshots": [
+      "assets/screenshots/wearloop/image_1.png",
+      "assets/screenshots/wearloop/image_2.png",
+      "assets/screenshots/wearloop/image_3.png",
+      "assets/screenshots/wearloop/image_4.png",
+      "assets/screenshots/wearloop/image_5.png"
+    ],
+    "links": [
+      {
+        "name": "View Source",
+        "source": "https://github.com/bishlam/wearloop",
+        "Logo": "/assets/contact/githubIcon.png"
+      },
+      {
+        "name": "View Demo",
+        "source": "https://www.youtube.com/embed/Ulisy_Q7_2c",
+        "Logo": "/assets/contact/youtubeIcon.png"
+      }
+    ]
+  }
 ]
