@@ -13,14 +13,14 @@
 }
 
 .text h2{
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 20px;
   letter-spacing: 4px;
 }
 
 .text p{
-  font-size: 29px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 2px;
 }
@@ -35,15 +35,20 @@
 
 .link{
   display: flex;
+  justify-content: center;
   align-items: center;
   max-width: 100%;
   gap: 25px;
 }
 
+.link img{
+  width:40px;
+}
+
 .link a{
   color: var(--color-text);
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
   letter-spacing: 1.5px;
   word-break:break-all;

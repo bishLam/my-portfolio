@@ -26,7 +26,7 @@
 }
 
 .imageList img {
-    width: 290px;
+    max-width: 250px;
     border-radius: 15px;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .topRightHorizontal video {
-    width: 600px;
+    width: 500px;
     margin-left: 80px;
 }
 
@@ -130,7 +130,7 @@
 
 
 .highlightsVideo video {
-    width: 700px;
+    width: 200px;
 }
 
 .landscapeIframe{

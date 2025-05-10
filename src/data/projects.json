@@ -158,35 +158,38 @@
     ]
   },
   {
-    "ID": "6",
-    "title" : "React Movie App",
-    "description": "A basic react web app which displays a list of movies and  allows users to search for movies based on their title. The website uses public movie API to get all the movies and displays it on the website.",
-    "detailedDescription": "A simple react vite application that allows the users to browse through currently trending movies. This movie website uses public movie API to displays all the mpvies, allows users to add movies to the favourites. \n\n Key features and tools used includes:- \n ▷ React with hooks for efficient component state management. \n ▷ Vite for fast build and development setup. \n ▷ Responsive UI with CSS for seamless cross-device experience. \n ▷  Clean and modular code structure for maintainability.",
-    "imageSrc": "assets/screenshots/movieapp/image_1.png",
-    "skills": ["React", "Vite", "CSS"],
-    "demoLink": "https://www.youtube.com/embed/VvhqzbnjSjI",
-    "sourceLink": "https://github.com/bishLam/react-movie-website",
-    "techs":["React", "Vite", "CSS", "Javascript"],
-    "highlights" : {
-      "src": "/assets/videos/moviewebsite.mp4",
-      "type": "mp4",
-      "layout" : "landscape"
+  "ID": "6",
+  "title": "WearLoop",
+  "description": "A modern cross-platform app built with React Native that helps users manage their warddrobes. The app serves as a marketplace betweem clothes donating and clothes collecting users",
+  "detailedDescription": "WearLoop is a full-featured React Native application that allows users to manage their wardrobe efficiently by allowing users to donate and collect clothes. The app promotes sustainable fashion by encouraging recycling of clothes.\n\nKey features and tools used include:-\n▷ React Native with Expo for building cross-platform (iOS & Android) mobile apps.\n▷ Appwrite for user authentication and cloud-based file storage.\n▷ Firebase for real-time instant messaging between interested and donating users.\n▷ Responsive and minimal UI/UX prototyped using Figma.\n▷ Cloud storage for persistent data access and photo uploads.\n▷ Modular and scalable architecture for maintainability and performance.",
+  "imageSrc": "assets/screenshots/wearloop/thumbnail.png",
+  "skills": ["React Native", "Expo", "Appwrite", "Firebase"],
+  "demoLink": "https://www.youtube.com/embed/Ulisy_Q7_2c",
+  "sourceLink": "https://github.com/bishlam/wearloop",
+  "techs": ["React Native", "Expo", "Firebase", "Appwrite", "JavaScript"],
+  "highlights": {
+    "src": "/assets/videos/SplitShareDemo.mp4",
+    "type": "mp4",
+    "layout": "phone"
+  },
+  "screenshots": [
+    "assets/screenshots/wearloop/image_1.png",
+    "assets/screenshots/wearloop/image_2.png",
+     "assets/screenshots/wearloop/image_3.png",
+    "assets/screenshots/wearloop/image_4.png",
+    "assets/screenshots/wearloop/image_5.png"
+  ],
+  "links": [
+    {
+      "name": "View Source",
+      "source": "https://github.com/bishlam/wearloop",
+      "Logo": "/assets/contact/githubIcon.png"
     },
-    "screenshots" : [
-      "assets/screenshots/movieapp/image_1.png",
-      "assets/screenshots/movieapp/image_2.png"
-    ],
-    "links": [
-      {
-        "name" : "View Source",
-        "source" : "https://github.com/bishLam/react-movie-website",
-        "Logo" : "/assets/contact/githubIcon.png"
-      },
-      {
-        "name" : "View Demo",
-        "source" : "https://www.youtube.com/embed/VvhqzbnjSjI",
-        "Logo" : "/assets/contact/youtubeIcon.png"
-      }
-    ]
-  }
+    {
+      "name": "View Demo",
+      "source": "https://www.youtube.com/embed/Ulisy_Q7_2c",
+      "Logo": "/assets/contact/youtubeIcon.png"
+    }
+  ]
+}
 ]
