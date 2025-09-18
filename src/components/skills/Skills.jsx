@@ -9,11 +9,13 @@ export const Skills = () => {
         <div className={styles.skills}>
           {skills.map((skill, index) => {
               return <div key={index} className={styles.skill}>
-                <div className={styles.imageContainer}>
-                  <img src={skill.imageSrc} alt={skill.title} />
-                </div>
-                <p className={styles.skillTitle}>{skill.title}</p>
-              </div>
+                <a href={skill.link} target="_blank" className={styles.skillLink}>
+                  <div className={styles.imageContainer}>
+                    <img src={skill.imageSrc} alt={skill.title} />
+                  </div>
+                  <p className={styles.skillTitle}>{skill.title}</p>
+                </a>
+              </div>      
           }
           )}
         </div>

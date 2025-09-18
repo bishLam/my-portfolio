@@ -1,76 +1,91 @@
 [
   {
     "title":"HTML",
+    "link":"https://developer.mozilla.org/en-US/docs/Web/HTML",
     "imageSrc": "/assets/skills/html.png"
   },
 
   {
     "title":"CSS",
+    "link":"https://developer.mozilla.org/en-US/docs/Web/CSS",
     "imageSrc": "/assets/skills/css.png"
   },
 
   {
     "title":"JavaScript",
+    "link":"https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     "imageSrc": "/assets/skills/java-script.png"
   },
 
   {
     "title" : "PHP",
+    "link":"https://www.php.net/",
     "imageSrc" : "/assets/skills/php.png"
   },
 
   {
     "title":"Java",
+    "link":"https://www.oracle.com/java/technologies/javase-jdk11-downloads.html",
     "imageSrc": "/assets/skills/java.png"
   },
 
   {
     "title":"Native Android",
+    "link":"https://developer.android.com/docs",
     "imageSrc": "/assets/skills/android.png"
   },
 
   {
     "title":"Swift",
+    "link":"https://developer.apple.com/swift/",
     "imageSrc":"/assets/skills/swift.png"
   },
 
   {
     "title":"React",
+    "link":"https://reactjs.org/",
     "imageSrc": "/assets/skills/react.png"
   },
 
   {
     "title":"React Native",
+    "link":"https://reactnative.dev/",
     "imageSrc":"/assets/skills/react-native.png"
   },
 
   {
     "title": "C++",
+    "link": "https://en.cppreference.com/w/",
     "imageSrc" : "/assets/skills/cpp.png"
   },
 
   {
     "title": "C#",
+    "link": "https://docs.microsoft.com/en-us/dotnet/csharp/",
     "imageSrc" : "/assets/skills/c-sharp.png"
   },
 
   {
     "title":"ASP . Net",
+    "link":"https://dotnet.microsoft.com/apps/aspnet",
     "imageSrc": "/assets/skills/aspnet.png"
   },
 
   {
     "title":". Net",
+    "link":"https://dotnet.microsoft.com/",
     "imageSrc": "/assets/skills/dotNet.png"
   },
 
   {
     "title": "SQL",
+    "link": "https://www.postgresql.org/docs/",
     "imageSrc": "/assets/skills/sql.png"
   },
 
   {
     "title" : "Figma",
+    "link": "https://www.figma.com/",
     "imageSrc": "/assets/skills/figma.png"
   }
 

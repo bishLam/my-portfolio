@@ -14,9 +14,9 @@ export const About = () => {
           <li className={styles.aboutItem}>
             <img src="/assets/about/cursorIcon.png" alt="cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend Developer</h3>
-              <p title='Scroll below for skills and projects based on frontend applications'>
-                Passionate front end developer focused on designing beautiful and responsive websites. Some frontend skills includes CSS, Bootstrap, React, Javascript
+              <h3>Mobile App Developer</h3>
+              <p title='Scroll below for skills and projects based on mobile applications'>
+                Passionate about building intuitive and scalable mobile applications using React Native, Kotlin, Swift, and .NET. Experienced with Firebase, Appwrite, and local databases (SQLite, Room) to deliver real-world solutions that enhance user experience.
               </p>
             </div>
           </li>
@@ -26,7 +26,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-              Experienced in backend development with Node.js, Java, Swift, C#, C++, and more. Explore the skills and projects section to see backend work.
+              Skilled in backend development with C#, Java, Node.js, and SQL databases (MySQL, PostgreSQL, MS SQL). Experienced in designing modular architectures, authentication systems, and API integrations to support reliable and secure applications.
               </p>
             </div>
           </li>
@@ -36,7 +36,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI/UX designer</h3>
               <p>
-              Passionate about crafting visually appealing and user-friendly designs for websites and mobile applications. Focused on creating seamless and engaging user experiences. Check out the skills and projects section to explore past work.
+              Dedicated to crafting clean, user-friendly, and responsive designs with Figma and Material Design principles. Experienced in conducting usability testing and heuristic evaluations to create seamless, engaging user experiences.
               </p>
             </div>
           </li>

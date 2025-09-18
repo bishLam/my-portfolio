@@ -34,6 +34,15 @@
   align-items: center;
 }
 
+.skill a{
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 .imageContainer img{
   height: 70px;
   max-width: 100px;
@@ -70,4 +79,10 @@
   .skill p{
     font-size: 18px;
   }
+
+  .title{
+    font-size: 28px;
+  }
+
+
 }
